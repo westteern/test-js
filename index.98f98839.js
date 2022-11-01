@@ -1,0 +1,2 @@
+const e=async e=>{const t=await fetch(e);return await t.json()};!async function(){let t=(await e(" https://api.themoviedb.org/3/genre/movie/list?api_key=50f1c38da446101780a79b9df9405e4f")).genres;for(const e of t)console.log(e.name);let a=await e("https://api.themoviedb.org/3/trending/movie/week?api_key=50f1c38da446101780a79b9df9405e4f");console.log(a)}();
+//# sourceMappingURL=index.98f98839.js.map
